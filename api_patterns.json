@@ -1,0 +1,32 @@
+{
+    "GitHub": {
+        "pattern": "^gh[ps]_[A-Za-z0-9_]{36}$",
+        "description": "GitHub Personal Access Token or GitHub SSH Key",
+        "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token"
+    },
+    "Stripe": {
+        "pattern": "^(sk|pk)_(test|live)_[A-Za-z0-9]+$",
+        "description": "Stripe API Key (Secret or Publishable)",
+        "url": "https://stripe.com/docs/api/authentication"
+    },
+    "AWS": {
+        "pattern": "^AKIA[0-9A-Z]{16}$",
+        "description": "AWS Access Key ID",
+        "url": "https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html"
+    },
+    "Google API": {
+        "pattern": "^AIza[0-9A-Za-z\\-_]{35}$",
+        "description": "Google API Key",
+        "url": "https://cloud.google.com/docs/authentication/api-keys"
+    },
+    "OpenAI": {
+        "pattern": "^sk-[A-Za-z0-9]{48}$",
+        "description": "OpenAI API Key",
+        "url": "https://platform.openai.com/docs/api-reference/authentication"
+    },
+    "Slack": {
+        "pattern": "^xox[baprs]-([0-9]{12}-){3}[0-9a-zA-Z]{32}$",
+        "description": "Slack API Token/Webhook",
+        "url": "https://api.slack.com/authentication"
+    }
+}
