@@ -28,5 +28,115 @@
         "pattern": "^xox[baprs]-([0-9]{12}-){3}[0-9a-zA-Z]{32}$",
         "description": "Slack API Token/Webhook",
         "url": "https://api.slack.com/authentication"
+    },
+    "Twilio": {
+        "pattern": "^SK[0-9a-fA-F]{32}$",
+        "description": "Twilio API Key",
+        "url": "https://www.twilio.com/docs/usage/api"
+    },
+    "SendGrid": {
+        "pattern": "^SG\\.[A-Za-z0-9_-]{22}\\.[A-Za-z0-9_-]{43}$",
+        "description": "SendGrid API Key",
+        "url": "https://sendgrid.com/docs/ui/account-and-settings/api-keys/"
+    },
+    "Dropbox": {
+        "pattern": "^[A-Za-z0-9_-]{15}$",
+        "description": "Dropbox API Key",
+        "url": "https://www.dropbox.com/developers/reference/oauth-guide"
+    },
+    "Heroku": {
+        "pattern": "^[0-9a-f]{32}$",
+        "description": "Heroku API Key",
+        "url": "https://devcenter.heroku.com/articles/platform-api-quickstart"
+    },
+    "DigitalOcean": {
+        "pattern": "^[a-f0-9]{64}$",
+        "description": "DigitalOcean API Token",
+        "url": "https://www.digitalocean.com/docs/api/create-personal-access-token/"
+    },
+    "Mailgun": {
+        "pattern": "^key-[0-9a-zA-Z]{32}$",
+        "description": "Mailgun API Key",
+        "url": "https://documentation.mailgun.com/en/latest/user_manual.html#api-key"
+    },
+    "Facebook": {
+        "pattern": "^[0-9a-f]{32}$",
+        "description": "Facebook Access Token",
+        "url": "https://developers.facebook.com/docs/facebook-login/access-tokens/"
+    },
+    "Twitter": {
+        "pattern": "^[A-Za-z0-9]{35,44}$",
+        "description": "Twitter API Key",
+        "url": "https://developer.twitter.com/en/docs/authentication/oauth-1-0a"
+    },
+    "LinkedIn": {
+        "pattern": "^[A-Za-z0-9]{16}$",
+        "description": "LinkedIn API Key",
+        "url": "https://docs.microsoft.com/en-us/linkedin/shared/authentication/authentication"
+    },
+    "Azure": {
+        "pattern": "^[0-9a-f]{32}$",
+        "description": "Azure API Key",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/authenticate-interactive"
+    },
+    "PayPal": {
+        "pattern": "^[A-Za-z0-9]{20}$",
+        "description": "PayPal API Key",
+        "url": "https://developer.paypal.com/docs/api/overview/"
+    },
+    "Spotify": {
+        "pattern": "^[A-Za-z0-9]{32}$",
+        "description": "Spotify API Key",
+        "url": "https://developer.spotify.com/documentation/web-api/"
+    },
+    "Netflix": {
+        "pattern": "^[A-Za-z0-9]{32}$",
+        "description": "Netflix API Key",
+        "url": "https://help.netflix.com/en/node/100236"
+    },
+    "Instagram": {
+        "pattern": "^[A-Za-z0-9]{32}$",
+        "description": "Instagram API Key",
+        "url": "https://developers.facebook.com/docs/instagram-basic-display-api/getting-started"
+    },
+    "Pinterest": {
+        "pattern": "^[A-Za-z0-9]{32}$",
+        "description": "Pinterest API Key",
+        "url": "https://developers.pinterest.com/docs/getting-started/introduction/"
+    },
+    "Etsy": {
+        "pattern": "^[A-Za-z0-9]{32}$",
+        "description": "Etsy API Key",
+        "url": "https://www.etsy.com/developers/documentation/getting_started/api_basics"
+    },
+    "Shopify": {
+        "pattern": "^[A-Za-z0-9]{32}$",
+        "description": "Shopify API Key",
+        "url": "https://shopify.dev/api/usage/authentication"
+    },
+    "Salesforce": {
+        "pattern": "^[A-Za-z0-9]{32}$",
+        "description": "Salesforce API Key",
+        "url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm"
+    },
+    "Zoom": {
+        "pattern": "^[A-Za-z0-9]{32}$",
+        "description": "Zoom API Key",
+        "url": "https://marketplace.zoom.us/docs/guides/auth/oauth"
+    },
+    "Twitch": {
+        "pattern": "^[A-Za-z0-9]{30}$",
+        "description": "Twitch API Key",
+        "url": "https://dev.twitch.tv/docs/authentication"
+    },
+    "Yelp": {
+        "pattern": "^[A-Za-z0-9]{32}$",
+        "description": "Yelp API Key",
+        "url": "https://www.yelp.com/developers/documentation/v3/authentication"
+    },
+    "Anthropic": {
+        "pattern": "^sk-ant-api03-[A-Za-z0-9_-]{86,}$",
+        "description": "Anthropic API Key",
+        "url": "https://docs.anthropic.com/claude/docs/api-keys"
     }
 }
